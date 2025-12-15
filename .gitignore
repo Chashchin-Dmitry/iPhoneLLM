@@ -1,0 +1,38 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+.build/
+
+# CocoaPods
+Pods/
+
+# GGUF модели (слишком большие для GitHub)
+*.gguf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+
+# Временные файлы
+*.log
+*.tmp
+
+# Личные файлы (не для публикации)
+ARTICLE.md
+ARTICLE_DRAFT.md
